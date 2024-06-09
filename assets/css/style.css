@@ -671,7 +671,13 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 -15px;
     padding-bottom: 65px;
 }
-
+.services__icon {
+    position: absolute;
+    top: 0;
+    left: 28px;
+    z-index: 1;
+    width: 35px;
+}
 .footer__social {
     margin-bottom: 25px;
 }
@@ -824,6 +830,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 1230px) {
+    .services__icon {
+        position: absolute;
+        top: 0;
+        left: 28px;
+        z-index: 1;
+        width: 20px;
+    }
     /* Reviews */
     .reviews__text {
         font-size: 20px;
@@ -844,6 +857,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 990px) {
+    .services__icon {
+        position: absolute;
+        top: 0;
+        left: 28px;
+        z-index: 1;
+        width: 20px;
+    }
     .services__item--border {
         border-bottom: 0;
     } 
@@ -895,6 +915,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 770px) {
+    .services__icon {
+        position: absolute;
+        top: 0;
+        left: 28px;
+        z-index: 1;
+        width: 20px;
+    }
     .works__item {
         position: relative;
     
@@ -1024,7 +1051,13 @@ h1, h2, h3, h4, h5, h6 {
 
 
 @media (max-width: 575px) {
-
+    .services__icon {
+        position: absolute;
+        top: 0;
+        left: 28px;
+        z-index: 1;
+        width: 20px;
+    }
     /* Intro */
     .intro__suptitle {
         font-size: 22px;
